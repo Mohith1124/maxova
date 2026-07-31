@@ -36,7 +36,7 @@ export default function Contact() {
           <h2>Tell me about your <span className="grad">project</span></h2>
           <p>Fill this in and I'll get back to you with a plan and a timeline. No obligation - it just starts the conversation.</p>
           <div className="direct">
-            <a href="https://cal.id/mohith-morees" target="_blank" rel="noopener noreferrer">
+            <a href="https://cal.id/mohith-morees/free-consultation" target="_blank" rel="noopener noreferrer">
               <span className="ic">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
                   <rect x="3" y="4" width="18" height="17" rx="2" stroke="var(--a2)" strokeWidth="2"/>
