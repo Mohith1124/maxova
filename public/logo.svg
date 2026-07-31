@@ -1,20 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="100" viewBox="0 0 520 100">
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="100" viewBox="0 0 380 100">
   <defs>
-    <linearGradient id="mg" x1="5" y1="5" x2="95" y2="95" gradientUnits="userSpaceOnUse">
+    <linearGradient id="badge-g" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%"   stop-color="#FF5C39"/>
-      <stop offset="50%"  stop-color="#6C3BFF"/>
-      <stop offset="100%" stop-color="#2E9BFF"/>
+      <stop offset="100%" stop-color="#6C3BFF"/>
+    </linearGradient>
+    <linearGradient id="ova-g" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#FF5C39"/>
+      <stop offset="100%" stop-color="#6C3BFF"/>
     </linearGradient>
   </defs>
-  <!-- Geometric M mark -->
-  <path d="M 5 95 L 28 5 L 50 42 L 72 5 L 95 95"
-        stroke="url(#mg)" stroke-width="9"
+  <!-- Rounded-square badge -->
+  <rect x="0" y="5" width="90" height="90" rx="22" fill="url(#badge-g)"/>
+  <!-- White M inside badge -->
+  <path d="M 17 80 L 17 22 L 45 56 L 73 22 L 73 80"
+        stroke="white" stroke-width="8"
         stroke-linejoin="round" stroke-linecap="round" fill="none"/>
-  <!-- Divider -->
-  <line x1="114" y1="14" x2="114" y2="86" stroke="#2a2535" stroke-width="1.5"/>
-  <!-- Wordmark: "axova" in white (M is the mark above) -->
-  <text x="126" y="78"
-        font-family="system-ui,-apple-system,'Arial Black',Arial,sans-serif"
-        font-weight="800" font-size="76" letter-spacing="-1.5"
-        fill="#FFFFFF">axova</text>
+  <!-- Wordmark: Max (white) + ova (gradient) -->
+  <text font-family="system-ui,-apple-system,'Arial Black',Arial,sans-serif"
+        font-weight="900" font-size="70" letter-spacing="-1.5">
+    <tspan x="108" y="74" fill="#FFFFFF">Max</tspan><tspan fill="url(#ova-g)">ova</tspan>
+  </text>
 </svg>
