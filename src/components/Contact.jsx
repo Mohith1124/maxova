@@ -36,6 +36,17 @@ export default function Contact() {
           <h2>Tell me about your <span className="grad">project</span></h2>
           <p>Fill this in and I'll get back to you with a plan and a timeline. No obligation - it just starts the conversation.</p>
           <div className="direct">
+            <a href="https://cal.id/mohith-morees" target="_blank" rel="noopener noreferrer">
+              <span className="ic">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <rect x="3" y="4" width="18" height="17" rx="2" stroke="var(--a2)" strokeWidth="2"/>
+                  <path d="M3 9h18" stroke="var(--a2)" strokeWidth="2"/>
+                  <path d="M8 2v4M16 2v4" stroke="var(--a2)" strokeWidth="2" strokeLinecap="round"/>
+                  <rect x="7" y="13" width="3" height="3" rx="0.5" fill="var(--a2)"/>
+                </svg>
+              </span>
+              Book a free call
+            </a>
             <a href={'https://wa.me/' + BRAND.whatsapp} target="_blank" rel="noopener noreferrer">
               <span className="ic">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366"><path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.85-1.45A10 10 0 1 0 12 2z" /></svg>
