@@ -70,14 +70,15 @@ export const PLANS = [
   },
 ]
 
-// Client testimonials shown on the site.
-// IMPORTANT: only put REAL quotes from real clients here. Never publish
-// invented reviews. The section auto-hides if this array is empty.
+// Client testimonials. IMPORTANT: only real quotes from real clients.
+// Get googleUrl by opening the review on Google Maps → Share → copy link.
+// Section auto-hides if this array is empty.
 export const TESTIMONIALS = [
-  {
-    quote: 'They built our website in under a week and it looks fantastic. Easy to work with and quick to make changes.',
-    name: 'Client name',
-    business: 'Business name, City',
-    rating: 5,
-  },
+  // {
+  //   quote: 'Their real words here.',
+  //   name: 'Client Full Name',
+  //   business: 'Business Name, City',
+  //   rating: 5,
+  //   googleUrl: 'https://g.co/kgs/xxxxxxx',
+  // },
 ]

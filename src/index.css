@@ -348,3 +348,14 @@ footer { border-top: 1px solid var(--line); padding: 44px 0; position: relative;
 .btn-line:hover {
   background: linear-gradient(color-mix(in srgb, var(--a2) 10%, var(--bg)), color-mix(in srgb, var(--a2) 10%, var(--bg))) padding-box, var(--grad) border-box;
 }
+/* Verified Google review link on each testimonial */
+.tcard .glink {
+  display: inline-flex; align-items: center; gap: 8px;
+  margin-top: 14px; padding-top: 14px;
+  font-size: 0.82rem; font-weight: 600;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+  transition: color 0.2s;
+}
+.tcard .glink:hover { color: var(--text); }
+.tcard .glink svg { flex: none; }
