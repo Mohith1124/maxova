@@ -6,18 +6,22 @@ export default function Nav() {
     <header>
       <div className="wrap nav">
         <a className="brand" href="#top" aria-label="Maxova">
-          <svg width="130" height="34" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <svg width="168" height="32" viewBox="0 0 520 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <defs>
-              <linearGradient id="nav-logo-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <linearGradient id="nav-logo-grad" x1="5" y1="5" x2="95" y2="95" gradientUnits="userSpaceOnUse">
                 <stop offset="0%"   stopColor="#FF5C39"/>
-                <stop offset="48%"  stopColor="#6C3BFF"/>
+                <stop offset="50%"  stopColor="#6C3BFF"/>
                 <stop offset="100%" stopColor="#2E9BFF"/>
               </linearGradient>
             </defs>
-            <text x="0" y="80"
+            <path d="M 5 95 L 28 5 L 50 42 L 72 5 L 95 95"
+                  stroke="url(#nav-logo-grad)" strokeWidth="9"
+                  strokeLinejoin="round" strokeLinecap="round" fill="none"/>
+            <line x1="114" y1="14" x2="114" y2="86" stroke="#2a2535" strokeWidth="1.5"/>
+            <text x="126" y="78"
                   fontFamily="system-ui,-apple-system,'Arial Black',Arial,sans-serif"
-                  fontWeight="900" fontSize="88" letterSpacing="-2"
-                  fill="url(#nav-logo-grad)">Maxova</text>
+                  fontWeight="800" fontSize="76" letterSpacing="-1.5"
+                  fill="currentColor">axova</text>
           </svg>
         </a>
         <nav className="nav-links">
