@@ -70,6 +70,33 @@ export const PLANS = [
   },
 ]
 
+export const FAQS = [
+  {
+    q: 'How long does it take to build my website?',
+    a: 'Most single-page sites are delivered within 5 working days once I have your content and the advance. Larger multi-page sites take a bit longer — I always confirm the exact timeline in your agreement before we start.',
+  },
+  {
+    q: 'Do I own the website once it is done?',
+    a: 'Yes. On final payment, the website is fully handed over to you. The domain (like yourbusiness.com) is purchased in your name and owned by you.',
+  },
+  {
+    q: 'What do you need from me to get started?',
+    a: 'Your logo (if you have one), a few good photos, your list of services, business timings, address, and contact details. Missing content is the main thing that delays projects, so having it ready helps us launch faster.',
+  },
+  {
+    q: 'How does payment work?',
+    a: 'A 30–50% advance to begin, and the balance before the site goes live. Prices are one-time for the build. Hosting and small updates are covered by an optional yearly care plan.',
+  },
+  {
+    q: 'What if I want changes after seeing it?',
+    a: 'Every project includes 2 rounds of revisions so we get it right. Bigger changes or new features after that are quoted separately.',
+  },
+  {
+    q: 'Will my website work on mobile?',
+    a: 'Always. Every site I build is fully responsive and tested on phones, tablets, and desktops — most of your customers will visit on their phone, so mobile is a priority.',
+  },
+]
+
 // Client testimonials. IMPORTANT: only real quotes from real clients.
 // Get googleUrl by opening the review on Google Maps → Share → copy link.
 // Section auto-hides if this array is empty.

@@ -359,3 +359,57 @@ footer { border-top: 1px solid var(--line); padding: 44px 0; position: relative;
 }
 .tcard .glink:hover { color: var(--text); }
 .tcard .glink svg { flex: none; }
+
+/* ---- faq ---- */
+.faq-list {
+  list-style: none;
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.faq-item {
+  background: var(--bg2);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.faq-q {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 22px 26px;
+  background: none;
+  border: none;
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.faq-q:hover { color: var(--a2); }
+.faq-icon {
+  flex: none;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1;
+  color: var(--a2);
+  transition: transform 0.25s;
+}
+.faq-a {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease;
+}
+.faq-a p {
+  padding: 0 26px 22px;
+  color: var(--muted);
+  font-size: 0.97rem;
+  line-height: 1.7;
+  margin: 0;
+}
